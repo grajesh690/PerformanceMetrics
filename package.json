@@ -1,0 +1,19 @@
+{
+  "name": "performancemetrics",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1",
+    "lighthouse": "^9.6.8",
+    "playwright-lighthouse": "^2.2.2"
+  },
+  "dependencies": {
+    "get-port-please": "^3.0.2",
+    "package.json": "^2.0.1"
+  }
+}
