@@ -3,7 +3,7 @@ import { playAudit } from "playwright-lighthouse";
 import lighthouseDesktopConfig from "lighthouse/lighthouse-core/config/lr-desktop-config";
 import { inputUrl } from "../data/url.json";
 
-// test.describe("audit example", () => {
+
 inputUrl.forEach((data) => {
   test(`Performances Test ${data}`, async () => {
     const browser = await chromium.launch({
@@ -35,4 +35,3 @@ inputUrl.forEach((data) => {
     await browser.close();
   });
 });
-// });
